@@ -1,0 +1,162 @@
+/* Overall Data Entry Page with Gradient Background */
+.data-entry-page {
+    background: linear-gradient(135deg, #32a852, #3478f6);
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    padding: 1rem;
+    transition: background 0.3s;
+}
+
+/* Dark Mode Background */
+.dark-mode .data-entry-page {
+    background: linear-gradient(135deg, #1a3a27, #1e2b4d);
+    color: #e0e0e0;
+}
+
+/* Header styling for the data entry page */
+.data-entry-header {
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Dark Mode Header */
+.dark-mode .data-entry-header {
+    color: #00d4ff;
+}
+
+/* Container for the data entry form */
+.data-entry-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* Main form styling */
+.data-entry-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode Form */
+.dark-mode .data-entry-form {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Headings */
+.data-entry-form h2, .data-entry-form h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+}
+
+/* Dark Mode Headings */
+.dark-mode .data-entry-form h2, .dark-mode .data-entry-form h3 {
+    color: #00d4ff;
+}
+
+/* Form groups for individual inputs */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+    transition: color 0.3s;
+}
+
+/* Dark Mode Labels */
+.dark-mode .form-group label {
+    color: #b3b3b3;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s, background 0.3s, color 0.3s;
+}
+
+/* Dark Mode Input Fields */
+.dark-mode .form-group input, .dark-mode .form-group textarea {
+    background: #444;
+    color: #e0e0e0;
+    border-color: #666;
+}
+
+/* Tag groups for skills & interests */
+.tag-item {
+    background: #e0e0e0;
+    color: #333;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode Tags */
+.dark-mode .tag-item {
+    background: #555;
+    color: #e0e0e0;
+}
+
+/* Buttons */
+.add-btn, .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.add-btn {
+    background: #d0e8ff;
+    color: #333;
+}
+
+.add-btn:hover {
+    background: #b0d4ff;
+}
+
+/* Dark Mode Add Button */
+.dark-mode .add-btn {
+    background: #333;
+    color: #e0e0e0;
+}
+
+.submit-btn {
+    background: #4a90e2;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background: #407ec9;
+}
+
+/* Dark Mode Submit Button */
+.dark-mode .submit-btn {
+    background: #2e5d8c;
+    color: #e0e0e0;
+}

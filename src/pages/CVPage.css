@@ -1,0 +1,77 @@
+/* Container for the CV page */
+.cv-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: var(--cv-background, #fff); /* White in light mode */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: var(--cv-text-color, #333); /* Dark text in light mode */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode adjustments */
+body.dark-mode .cv-container {
+    background-color: #1e1e1e; /* Black in dark mode */
+    color: #f5f5f5; /* Light text in dark mode */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+.cv-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: inherit;
+}
+
+.cv-section {
+    margin-bottom: 2rem;
+}
+
+.cv-section h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid var(--section-border, #ddd); /* Light in light mode */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+body.dark-mode .cv-section h2 {
+    border-bottom-color: #444; /* Dark in dark mode */
+}
+
+.cv-section p,
+.cv-section li {
+    font-size: 1.1rem;
+    color: inherit;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cv-container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    .cv-section h2 {
+        font-size: 1.4rem;
+    }
+    .cv-section p,
+    .cv-section li {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cv-container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .cv-section h2 {
+        font-size: 1.2rem;
+    }
+    .cv-section p,
+    .cv-section li {
+        font-size: 0.9rem;
+    }
+}

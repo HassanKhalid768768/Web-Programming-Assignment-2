@@ -1,0 +1,141 @@
+.about-me-container {
+    padding: 2rem;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light Mode */
+  .light-mode .about-me-container {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Dark Mode */
+  .dark-mode .about-me-container {
+    background-color: #1a1a2e;
+    color: #f4f4f9;
+  }
+  
+  .about-me-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  /* Dark Mode Title */
+  .dark-mode .about-me-title {
+    color: #00d4ff;
+  }
+  
+  .about-me-box {
+    display: flex;
+    align-items: flex-start;
+    background-color: #e8f0fe;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 900px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Dark Mode Box */
+  .dark-mode .about-me-box {
+    background-color: #2e3b4e;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  .about-profile-pic {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Dark Mode Profile Pic */
+  .dark-mode .about-profile-pic {
+    border-color: #00d4ff;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  /* Dark Mode Content */
+  .dark-mode .about-content {
+    color: #e0e0e0;
+  }
+  
+  .about-description {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  /* Dark Mode Description */
+  .dark-mode .about-description {
+    color: #cfcfcf;
+  }
+  
+  .about-section {
+    margin-bottom: 1rem;
+  }
+  
+  .about-section h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  /* Dark Mode Section Title */
+  .dark-mode .about-section h4 {
+    color: #00d4ff;
+  }
+  
+  .about-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    list-style-type: disc;
+    color: #555;
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Dark Mode List */
+  .dark-mode .about-list {
+    color: #bbb;
+  }
+  
+  @media (max-width: 768px) {
+    .about-me-box {
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem;
+    }
+  
+    .about-profile-pic {
+      width: 180px;
+      height: 220px;
+      margin-bottom: 1rem;
+    }
+  
+    .about-content {
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

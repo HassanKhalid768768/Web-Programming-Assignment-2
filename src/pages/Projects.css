@@ -1,0 +1,70 @@
+.projects-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+/* Dark Mode Container */
+.dark-mode .projects-container {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Dark Mode Title */
+.dark-mode .projects-title {
+    color: #00d4ff;
+}
+
+/* On large screens, display 5 projects per row */
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+@media (max-width: 1200px) {
+    .projects-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .projects-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.draggable-project {
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Draggable Project */
+.dark-mode .draggable-project {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
