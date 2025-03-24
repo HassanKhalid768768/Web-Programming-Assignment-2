@@ -22,7 +22,7 @@ function App() {
         {/* Navbar */}
         <nav className="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
           <div className="container">
-            <Link className="navbar-brand" to="/">Portfolio Maker</Link>
+          <Link className="navbar-brand" to="/" onClick={(e) => e.preventDefault()}>NovaPortfolio</Link>
             <button
               className="navbar-toggler"
               type="button"

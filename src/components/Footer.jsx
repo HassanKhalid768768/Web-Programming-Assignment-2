@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-md-4 mb-4">
             <h5 className="text-uppercase mb-3">About Us</h5>
             <p>
-              Portfolio Maker helps you create personalized and impactful portfolios.
+              NovaPortfolio helps you create personalized and impactful portfolios.
               Showcase your projects, skills, and experience with ease.
             </p>
           </div>
@@ -87,7 +87,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center">
           <p className="mb-0">
-            &copy; {new Date().getFullYear()} Portfolio Maker. All rights reserved.
+            &copy; {new Date().getFullYear()} NovaPortfolio. All rights reserved.
           </p>
         </div>
       </div>
