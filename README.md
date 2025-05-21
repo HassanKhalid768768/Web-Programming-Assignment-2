@@ -138,5 +138,3 @@ NovaPortfolio/
 ## 📄 License
 
 © 2025 NovaPortfolio. All rights reserved. For educational use only.
-
-```
