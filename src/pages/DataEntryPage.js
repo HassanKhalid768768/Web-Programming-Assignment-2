@@ -94,7 +94,7 @@ const DataEntryPage = ({ onSubmit = () => {} }) => {
           phoneNumber,
           degree,
           bio,
-          profilePic: reader.result, // Store as base64 string
+          profilePic: reader.result,
           skills,
           interests,
           socialMedia,

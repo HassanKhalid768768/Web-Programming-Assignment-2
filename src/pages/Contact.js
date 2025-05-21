@@ -14,13 +14,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can integrate an API call or Google Forms submission.
+    // Integrate an API call or Google Forms submission.
     console.log("Form Data:", formData);
     setSubmitted(true);
     setFormData({ name: "", email: "", message: "" });
   };
 
-  // Optionally, hide the success message after 3 seconds
+  // Hide the success message after 3 seconds
   useEffect(() => {
     if (submitted) {
       const timer = setTimeout(() => {

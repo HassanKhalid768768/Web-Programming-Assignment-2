@@ -6,7 +6,7 @@ import SortableProjectCard from '../components/SortableProjectCard';
 import './Projects.css';
 
 const Projects = () => {
-  // 10 static projects from your resume
+  // 10 static projects
   const staticProjects = [
     {
       id: '1',

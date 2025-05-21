@@ -2,7 +2,7 @@ import React from 'react';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import ProjectCard from './ProjectCard';
-import './ProjectCard.css'; // Optional, for styling
+import './ProjectCard.css'; 
 
 const SortableProjectCard = ({ id, title, description, image, github }) => {
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id });
