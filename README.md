@@ -2,21 +2,6 @@
 
 NovaPortfolio is a dynamic ReactJS-based portfolio generator that allows users to create, customize, and display a personal portfolio by entering their details through an intuitive data entry form.
 
-> **⚠️ Academic Integrity Notice:**  
-> Any form of plagiarism, sharing of code, or use of AI-generated code is strictly prohibited as per assignment guidelines. Ensure all work is original and properly documented.
-
----
-
-## 📌 Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Submission Guidelines](#submission-guidelines)
-- [Contact](#contact)
-
 ---
 
 ## ✨ Features
@@ -77,7 +62,6 @@ NovaPortfolio is a dynamic ReactJS-based portfolio generator that allows users t
 
 Explore NovaPortfolio in action with the following walkthrough:
 
-### 📤 Data Upload  
 [▶️ Watch the Demo](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
 
 ---
@@ -121,7 +105,7 @@ NovaPortfolio/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/NovaPortfolio.git
+   git clone https://github.com/HassanKhalid768768/Web-Programming-Assignment-2
    ```
 
 2. Navigate to the project folder:
@@ -144,25 +128,10 @@ NovaPortfolio/
 
 ---
 
-## 📤 Submission Guidelines
-
-* Submit a `.zip` folder named `21L-XXXX.zip`.
-* Upload your GitHub repository and share the link.
-* Include any used API keys in code comments.
-* Ensure proper code commenting and structure.
-
----
-
 ## 👨‍🎓 Project Author
 
 **Muhammad Hassan Khalid**
 *Data Science Enthusiast | FAST-NUCES Student | Passionate Learner*
-
-Stay connected:
-
-* LinkedIn: [Your Link](#)
-* GitHub: [Your Profile](#)
-* Twitter: [Your Handle](#)
 
 ---
 
@@ -170,9 +139,4 @@ Stay connected:
 
 © 2025 NovaPortfolio. All rights reserved. For educational use only.
 
-```
-
----
-
-You can now paste this content into a `README.md` file in your GitHub repo or local project folder. If you'd like a downloadable `.md` file, let me know — I can generate and share it as a file.
 ```
