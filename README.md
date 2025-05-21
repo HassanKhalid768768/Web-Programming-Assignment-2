@@ -1,8 +1,3 @@
-Here's your full GitHub `README.md` content for **NovaPortfolio**, based on your project and assignment requirements.
-
----
-
-````markdown
 # 🌟 NovaPortfolio
 
 NovaPortfolio is a dynamic ReactJS-based portfolio generator that allows users to create, customize, and display a personal portfolio by entering their details through an intuitive data entry form.
