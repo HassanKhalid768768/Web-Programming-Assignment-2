@@ -62,7 +62,7 @@ NovaPortfolio is a dynamic ReactJS-based portfolio generator that allows users t
 
 Explore NovaPortfolio in action with the following walkthrough:
 
-[▶️ Watch the Demo](https://github.com/user-attachments/assets/fef3384c-d2af-448d-a9d7-82dfd5f893b0)
+[▶️ Watch the Demo](https://github.com/user-attachments/assets/a283108c-b7b0-40a3-bd11-409665a1792e)
 
 ---
 
